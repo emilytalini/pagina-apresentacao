@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 10;
+    font-family:'Raleway', sans-serif;
+}
+
+/*Banner*/
+
+.banner{
+    background: url(../img/banner-bg6.png) center no-repeat;
+    background-size: cover;
+    height:120vh;
+    padding-top: 15rem;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_título {
+    font-size: 5rem;
+}
+
+.banner_subtitulo {
+    font-size: 2.3rem;
+}
+.btn {
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn-branco {
+    color: beige;
+    text-decoration: none;
+    font-size: 3;
+}
+
+/* Sobre Container */
+
+.sobre-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+}
+
+.sobre-descricao, .sobre-habilidades {
+    width: 40%;
+    line-height: 1.5;
+    display: inline-block;
+    padding: 1rem;
+    margin-bottom: 0rem;    
+}
+
+.sobre__titulo {
+    font-size: 3rem;
+    color: #2b3855;
+    text-align: center;
+}
+
+.sobre-habilidades__titulo{
+    margin-top: 10px;
+}
+
+.btn-roxo {
+    color:rgb(8, 3, 87);
+    text-align: left;
+    border: 1px solid;
+    padding: 1rem;
+}
+
+/* Redes Sociais*/
+
+.footer {
+    text-align: center;
+}
+
+.redes-sociais__link {
+    display: inline-block;
+    width: 20%;
+    background-color: #2b3855;
+    padding: 2rem 0;
+    margin: 0 1rem;
+    text-align: center;
+    color: white;
+    margin: 1.9rem;
+    justify-content: space-evenly;
+}
+
+.redes-sociais__img, .redes-sociais__titulo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.footer__copy-texto {
+    color: #c4c4c4;
+    font-weight: lighter;
+    margin-top: 3rem;
+    padding: 1rem;
+    text-align: center;
+}
